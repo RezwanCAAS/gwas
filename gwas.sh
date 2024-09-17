@@ -32,7 +32,7 @@ gemma -bfile accessions -gk 1 -o kinship_matrix
 #
 #####################
 
-gemma -bfile associations -k kinship_matrix -c pca_result.eigenvec -lmm 4 -p phenotype_trait.csv -o gwas_results.txt
+gemma -bfile accessions -k kinship_matrix -c pca_result.eigenvec -lmm 4 -p phenotype_trait.csv -o gwas_results.txt
 
 #visualize the GWAS results
 
