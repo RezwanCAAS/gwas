@@ -1,7 +1,6 @@
 
 #after filtering the variant calling data under different parameters
 MAF,missing data, depth etc.
-MAF=number of minor alleles/total number of alleles
 ###################################
 #convert vcf file into plink format
 #
